@@ -1,0 +1,210 @@
+{
+  "data": {
+    "data": [
+      {
+        "id": 49,
+        "user_id": 32,
+        "status": "pending",
+        "sold_price": 65,
+        "revenue": 19.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 32,
+          "name": "GIOVANNI",
+          "surname": "FRANCHINI",
+          "full_name": "FRANCHINI GIOVANNI",
+          "role": "insurer",
+          "email": "sub_agente_27-11@gmail.com",
+          "type_code": "U32",
+          "is_lead": true
+        },
+        "docs": [
+          {
+            "id": 858,
+            "file_name": "esempio.json",
+            "url": "http://cristallocare.test/storage/858/esempio.json"
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "user_id": 23,
+        "status": "pending",
+        "sold_price": 111,
+        "revenue": 33,
+        "revenue_indirect": 1,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 23,
+          "name": "ANGELO",
+          "surname": "GONELLA",
+          "full_name": "GONELLA ANGELO",
+          "role": "insurer",
+          "email": "segreteria.gonella@gmail.com",
+          "type_code": "U23",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 51,
+        "user_id": 22,
+        "status": "pending",
+        "sold_price": 100,
+        "revenue": 54.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 22,
+          "name": "CARLO",
+          "surname": "GONELLA",
+          "full_name": "GONELLA CARLO",
+          "role": "insurer",
+          "email": "karl.okay@gmail.com",
+          "type_code": "U22",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 52,
+        "user_id": 28,
+        "status": "pending",
+        "sold_price": 80,
+        "revenue": 34.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 28,
+          "name": "MATTEO",
+          "surname": "TERNAVASIO",
+          "full_name": "TERNAVASIO MATTEO",
+          "role": "insurer",
+          "email": "m.ternavasio@gmail.com",
+          "type_code": "U28",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 53,
+        "user_id": 25,
+        "status": "pending",
+        "sold_price": 2632,
+        "revenue": 948.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 25,
+          "name": "Simona",
+          "surname": "Ternavasio",
+          "full_name": "Ternavasio Simona",
+          "role": "insurer",
+          "email": "ternavasiosimona@gmail.com",
+          "type_code": "U25",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 54,
+        "user_id": 37,
+        "status": "pending",
+        "sold_price": 625,
+        "revenue": 261,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 37,
+          "name": "Elisa",
+          "surname": "Grangetto",
+          "full_name": "Grangetto Elisa",
+          "role": "insurer",
+          "email": "elisa@gbgservizi.it",
+          "type_code": "U37",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 55,
+        "user_id": 39,
+        "status": "pending",
+        "sold_price": 80,
+        "revenue": 34.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 39,
+          "name": "Mara",
+          "surname": "Riva",
+          "full_name": "Riva Mara",
+          "role": "insurer",
+          "email": "mara@gbgservizi.it",
+          "type_code": "U39",
+          "is_lead": true
+        },
+        "docs": []
+      },
+      {
+        "id": 56,
+        "user_id": 40,
+        "status": "pending",
+        "sold_price": 80,
+        "revenue": 34.5,
+        "revenue_indirect": 0,
+        "invoiced_at": null,
+        "paid_at": null,
+        "month": "06",
+        "year": "2025",
+        "insurer": {
+          "id": 40,
+          "name": "EDOARDO",
+          "surname": "BORNO",
+          "full_name": "BORNO EDOARDO",
+          "role": "insurer",
+          "email": "edoardo@gbgservizi.it",
+          "type_code": "U40",
+          "is_lead": true
+        },
+        "docs": []
+      }
+    ],
+    "per_page": 9999,
+    "total": 8,
+    "last_page": 1,
+    "to": 8,
+    "from": 1,
+    "current_page": 1,
+    "first_page_url": "https://cristallocare.test/api/accountings?page=1",
+    "last_page_url": "https://cristallocare.test/api/accountings?page=1",
+    "next_page_url": null,
+    "prev_page_url": null,
+    "sum": []
+  },
+  "error": false,
+  "error_code": 0,
+  "error_message": "No errors"
+}
