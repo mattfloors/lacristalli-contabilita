@@ -151,7 +151,7 @@ const uploadFile = () => {
           <template #body="slotProps">
             <p
               :class="{
-                'px-2 py-1 rounded-md text-center': true,
+                'px-2 py-1 rounded-md text-center font-bold': true,
                 'bg-yellow-100 text-yellow-600':
                   slotProps.data.status === 'pending',
                 'bg-blue-100 text-blue-600':
@@ -193,6 +193,7 @@ const uploadFile = () => {
             <p class="text-xs">Note</p>
           </template>
         </Column>
+        
         <Column header="Azioni">
           <template #body="slotProps">
             <div class="flex gap-2">
@@ -205,7 +206,7 @@ const uploadFile = () => {
                 "
                 icon="pi pi-pencil"
                 aria-label="Modifica"
-                severity="success"
+                severity="primary"
               />
             </div>
           </template>

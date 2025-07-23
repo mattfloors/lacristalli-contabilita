@@ -4,7 +4,7 @@
       {
         "id": 49,
         "user_id": 32,
-        "status": "pending",
+        "status": "collected",
         "sold_price": 65,
         "revenue": 19.5,
         "revenue_indirect": 0,
@@ -33,7 +33,7 @@
       {
         "id": 50,
         "user_id": 23,
-        "status": "pending",
+        "status": "paid",
         "sold_price": 111,
         "revenue": 33,
         "revenue_indirect": 1,
@@ -56,7 +56,7 @@
       {
         "id": 51,
         "user_id": 22,
-        "status": "pending",
+        "status": "collected_and_paid",
         "sold_price": 100,
         "revenue": 54.5,
         "revenue_indirect": 0,
