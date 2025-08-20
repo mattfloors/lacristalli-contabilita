@@ -54,11 +54,11 @@ module.exports = (env = {}) => ({
       filename: '[name].css',
     }),
     new ModuleFederationPlugin({
-        name: 'vueRemoteApp',
+      name: 'vueRemoteApp',
       filename: 'remoteEntry.js',
-        exposes: {
-            './vueRemoteApp': './src/main.js', // app
-            './VueRemoteAppComponent': './src/components/AccountingsPage' // app component
+      exposes: {
+        './vueRemoteApp': './src/main.js', // app
+        './VueRemoteAppComponent': './src/AccountingsPage' // app component
       },
       shared: {
         vue: {
