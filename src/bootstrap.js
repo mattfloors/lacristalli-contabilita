@@ -5,10 +5,10 @@ import "./css/custom.css";
 import "./css/base.css";
 import "primeicons/primeicons.css";
 import "primevue/resources/themes/aura-light-green/theme.css";
-import Lara from "./presets/lara";
+import Lara from "./presets/lara/index.js";
 
 const app = createApp(App);
-app.use(PrimeVue, {
+app.use( PrimeVue, {
   unstyled: true,
   pt: Lara,
 });
