@@ -58,7 +58,7 @@ module.exports = (env = {}) => ({
       filename: 'remoteEntry.js',
         exposes: {
             './vueRemoteApp': './src/main.js', // app
-            './VueRemoteAppComponent': 'src/components/AccountingsPage' // app component
+            './VueRemoteAppComponent': './src/components/AccountingsPage' // app component
       },
       shared: {
         vue: {
@@ -68,7 +68,7 @@ module.exports = (env = {}) => ({
       },
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'index.html'),
+      template: path.resolve(__dirname, './index.html'),
     }),
   ],
   devServer: {
