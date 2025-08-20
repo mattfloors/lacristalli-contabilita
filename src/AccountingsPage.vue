@@ -16,7 +16,7 @@ import Toast from "primevue/toast";
 import FileUpload from "primevue/fileupload";
 
 // API Configuration for Laravel backend
-const API_BASE_URL = "https://83-229-83-96.cloud-xip.com/api";
+const API_BASE_URL = "https://185.181.8.206/api";
 
 // Get token from localStorage or use fallback for testing
 const getAuthToken = () => {
