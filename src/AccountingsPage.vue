@@ -16,7 +16,7 @@ import Toast from "primevue/toast";
 import FileUpload from "primevue/fileupload";
 
 // API Configuration for Laravel backend
-const API_BASE_URL = "https://cristallocare.test/api";
+const API_BASE_URL = "https://83-229-83-96.cloud-xip.com/api";
 
 // Get token from localStorage or use fallback for testing
 const getAuthToken = () => {
