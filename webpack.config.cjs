@@ -6,7 +6,7 @@ const { ModuleFederationPlugin } = require('webpack').container;
 const deps = require("./package.json").dependencies;
 
 module.exports = (env = {}) => ({
- mode: 'development',
+ mode: 'production',
   cache: false,
   devtool: 'source-map',
   optimization: {
@@ -61,6 +61,7 @@ module.exports = (env = {}) => ({
         './VueRemoteAppComponent': './src/AccountingsPage' // app component
       },
       shared: {
+        ...deps,
         vue: {
           eager: true,
           requiredVersion: deps.vue,

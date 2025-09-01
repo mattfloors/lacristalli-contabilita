@@ -9,7 +9,6 @@ import AccountingsPage from "./AccountingsPage.vue";
 </template>
 
 <script>
-import AccountingsPage from "./AccountingsPage.vue";
 export default {
   name: "App",
   components: {
