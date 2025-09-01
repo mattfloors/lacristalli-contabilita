@@ -62,7 +62,7 @@ module.exports = (env = {}) => ({
       },
       shared: {
         vue: {
-          eager: false,
+          eager: true,
           requiredVersion: deps.vue,
         },
       },

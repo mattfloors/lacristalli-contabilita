@@ -7,3 +7,13 @@ import AccountingsPage from "./AccountingsPage.vue";
     <AccountingsPage />
   </div>
 </template>
+
+<script>
+import AccountingsPage from "./AccountingsPage.vue";
+export default {
+  name: "App",
+  components: {
+    AccountingsPage,
+  },
+};
+</script>
