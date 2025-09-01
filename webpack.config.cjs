@@ -58,7 +58,9 @@ module.exports = (env = {}) => ({
       filename: 'remoteEntry.js',
       exposes: {
         './vueRemoteApp': './src/main.js', // app
-        './VueRemoteAppComponent': './src/AccountingsPage' // app component
+        './VueRemoteAppComponent': './src/AccountingsPage', // app component
+        './VueRemoteWebComponent': './src/VueRemoteWebComponent', // app component as web component
+        './App': './src/App.vue' // app component
       },
       shared: {
         ...deps,
