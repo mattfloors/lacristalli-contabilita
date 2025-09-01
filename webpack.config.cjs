@@ -7,7 +7,7 @@ const deps = require("./package.json").dependencies;
 
 module.exports = (env = {}) => ({
  mode: 'production',
-  cache: false,
+  cache: true,
   devtool: 'source-map',
   optimization: {
     minimize: false,
