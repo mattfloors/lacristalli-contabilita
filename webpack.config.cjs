@@ -53,9 +53,6 @@ module.exports = (env = {}) => ({
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-    new webpack.DefinePlugin({
-        __VUE_PROD_DEVTOOLS__: JSON.stringify(false)
-    }),
     new ModuleFederationPlugin({
       name: 'vueRemoteApp',
       filename: 'remoteEntry.js',
