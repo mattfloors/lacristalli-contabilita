@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { VueLoaderPlugin } = require('vue-loader');
 const { ModuleFederationPlugin } = require('webpack').container;
 const deps = require("./package.json").dependencies;
+const DefinePlugin = require('webpack/lib/DefinePlugin')
 
 module.exports = (env = {}) => ({
  mode: 'production',
@@ -72,6 +73,9 @@ module.exports = (env = {}) => ({
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, './index.html'),
+    }),
+    new DefinePlugin({
+      __VUE_PROD_DEVTOOLS__: JSON.stringify(false)
     }),
   ],
   devServer: {
