@@ -1,6 +1,4 @@
-<script setup>
-import AccountingsPage from "./AccountingsPage.vue";
-</script>
+
 
 <template>
   <div class="p-10">
@@ -9,10 +7,12 @@ import AccountingsPage from "./AccountingsPage.vue";
 </template>
 
 <script>
+import { defineAsyncComponent } from 'vue';
+
 export default {
   name: "App",
   components: {
-    AccountingsPage,
+    AccountingsPage: defineAsyncComponent(() => import("./AccountingsPage.vue")),
   },
 };
 </script>
