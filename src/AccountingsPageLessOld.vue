@@ -410,14 +410,6 @@ const debouncedSearch = () => {
 onMounted(() => {
   fetchAccountings();
 });
-
-
-export default {
-  name: "AccountingsPage",
-  components: {
-    AccountingsPage: defineAsyncComponent(() => import("./AccountingsPage.vue")),
-  },
-};
 </script>
 
 <template>
