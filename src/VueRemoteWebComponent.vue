@@ -1,6 +1,6 @@
 <script>
     import { defineCustomElement } from 'vue';
-import AccountingsPage from './AccountingsPage.vue';
+import AccountingsPage from './App.vue';
 
     const VueRemoteWebComponent = defineCustomElement(AccountingsPage);
 
