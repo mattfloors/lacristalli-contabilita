@@ -412,12 +412,7 @@ onMounted(() => {
 });
 
 
-export default {
-  name: "AccountingsPage",
-  components: {
-    AccountingsPage: defineAsyncComponent(() => import("./AccountingsPage.vue")),
-  },
-};
+export default defineAsyncComponent(() => import("./AccountingsPage.vue"));
 </script>
 
 <template>
