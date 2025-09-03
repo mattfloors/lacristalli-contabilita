@@ -412,7 +412,6 @@ onMounted(() => {
 });
 
 
-export default defineAsyncComponent(() => import("./AccountingsPage.vue"));
 </script>
 
 <template>

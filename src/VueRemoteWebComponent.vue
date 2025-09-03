@@ -1,10 +1,8 @@
 <script>
     import { defineCustomElement } from 'vue';
+import AccountingsPage from './AccountingsPage.vue';
 
-    const VueRemoteWebComponent = defineCustomElement({
-        styles: [``],
-        template: `<h1>Vue Remote Web Component</h1>`
-    });
+    const VueRemoteWebComponent = defineCustomElement(AccountingsPage);
 
     customElements.define("vue-remote-web-component", VueRemoteWebComponent);
 
